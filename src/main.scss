@@ -1,0 +1,15 @@
+// @import "../node_modules/bootstrap/scss/bootstrap";
+// @import "../node_modules/bootstrap/scss/bootstrap";
+@import "../node_modules/slick-carousel/slick/slick.scss";
+@import "../node_modules/slick-carousel/slick/slick-theme.scss";
+// @import "../node_modules/magnific-popup/src/css/main";
+// @import "styles/vars";
+// @import "styles/mixins";
+// @import "styles/adjustment";
+
+
+@import "components/header/header";
+@import "components/header/topbar";
+@import "components/header/logo";
+@import "components/header/nav";
+@import "components/footer/footer";

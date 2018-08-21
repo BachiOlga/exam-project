@@ -1,0 +1,21 @@
+
+<!-- {%
+    set items = [
+      { title: 'Кофе', href: '#', active: true },
+      { title: 'Аренда', href: '#' },
+      { title: 'Контакты', href: '#' },
+      { title: 'Регистрация', href: '#' }
+    ]  
+  %}
+
+
+
+  {% for item in items %}
+    <li
+      class="nav__item {% if item.active === true%} active {% endif %}"
+    >
+      <a href="{{item.href}}" class="nav__link">
+        {{item.title}}
+      </a>
+    </li>
+    {% endfor %} -->
