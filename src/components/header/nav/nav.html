@@ -1,21 +1,31 @@
+<!-- HeaderNav -->
+<nav class="header-nav">
+    <div class="header__container container">
+        {% include 'components/header/logo/logo.html' %}
+        <ul class="headr-menu">
+            <li class="header-menu__item">
+                <a href="" class="header-link">О нас</a>
+            </li>
+            <li class="header-menu__item">
+                <a href="" class="header-link">Кофе</a>
+            </li>
+            <li class="header-menu__item">
+                <a href="" class="header-link">Аренда</a>
+            </li>
+            <li class="header-menu__item">
+                <a href="" class="header-link">Ремонт</a>
+            </li>
+            <li class="header-menu__item">
+                <a href="" class="header-link">Контакты</a>
+            </li>
+            <li>
+                <a href="#" class="header-card">
+                    <i class="header-card__icon fas fa-shopping-cart"></i>
 
-<!-- {%
-    set items = [
-      { title: 'Кофе', href: '#', active: true },
-      { title: 'Аренда', href: '#' },
-      { title: 'Контакты', href: '#' },
-      { title: 'Регистрация', href: '#' }
-    ]  
-  %}
+                </a>
+            </li>
 
-
-
-  {% for item in items %}
-    <li
-      class="nav__item {% if item.active === true%} active {% endif %}"
-    >
-      <a href="{{item.href}}" class="nav__link">
-        {{item.title}}
-      </a>
-    </li>
-    {% endfor %} -->
+        </ul>
+    </div>
+</nav>
+<!-- /HeaderNav -->

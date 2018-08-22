@@ -1,8 +1,8 @@
-# beetroot-sass-template
+# DobraKava landing
 
 Run project 
 
-`npm start`
+`npm run start`
 
 Optimize all images
 

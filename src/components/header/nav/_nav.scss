@@ -1,0 +1,22 @@
+.header__container {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.headr-menu {
+    display: flex;
+}
+
+.header-menu__item:not(:first-child) {
+    margin-left: 30px;
+}
+
+.header-link {
+    font-size: 16px;
+}
+
+.header-card {
+    margin-left: 20px;
+}
