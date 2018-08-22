@@ -1,0 +1,54 @@
+.price__title {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-size: 25px;
+    border-bottom: 1px solid #959595;
+    box-shadow: 0px 0px 26px 6px #959595;
+}
+.prace__title-dsc {
+    padding-top: 20px;
+    font-size: 18px;
+    width: 700px;
+   margin: 0 auto;
+   
+}
+.price {
+   padding-bottom: 50px; 
+}
+.price__container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card {
+    text-align: center;
+    padding-bottom: 15px;
+    padding-top: 10px;
+    background: #fff;
+    border: 1px solid #fff;
+    margin-top: 20px;
+    
+       
+}
+.card:hover {
+    background: #fff;
+    border: 1px solid #fff;
+    box-shadow: 0px 0px 26px 6px #959595;
+}
+
+.card:not(:first-child) {
+    margin-left: 30px;
+    }
+.card__list {
+    text-align: left;
+    margin-left: 20px;
+}
+
+.card__img {
+     width: 100%; 
+}
+.card__btn {
+    padding: 5px 10px 5px 10px;
+}
