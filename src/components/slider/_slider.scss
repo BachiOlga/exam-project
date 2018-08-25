@@ -1,7 +1,8 @@
 
 #slides {
     position: relative;
-    height: 100vh;
+    // height: 100vh;
+    height: 700px;
     padding: 0px;
     margin: 0px;
     list-style-type: none;
@@ -15,6 +16,7 @@
     height: 100%;
     opacity: 0;
     z-index: 1;
+    overflow: hidden;
  
     
 }
