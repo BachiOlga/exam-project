@@ -4,9 +4,6 @@
 
 .svg-wrapper {
   position: relative;
-  top: 50%;
-  transform: translateY(-50%);
-  margin: 0 auto;
   width: 300px;
 }
 
@@ -21,14 +18,17 @@
 }
 
 .text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  white-space: nowrap;
   font-family: 'Anton', sans-serif;
   font-size: 40px;
   text-shadow: 4px 4px 5px rgba(150, 150, 150, 1);
   line-height: 32px;
   letter-spacing: 8px;
   text-align: center;
-  top: -48px;
-  position: relative;
   color: #595959;
 }
 

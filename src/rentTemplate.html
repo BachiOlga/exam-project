@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,18 +8,19 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
     crossorigin="anonymous">
   <title>
-    {% block title %}DobraKava{% endblock %}
+    {% block title %}{% endblock %}
   </title>
 </head>
 
 <body>
-  {% include "components/header/header.html" %}
-  <div class="maincontent" id="{{ pageName }}">
-  </div>
-  {% include "components/footer/map/map.html" %} {% include "components/footer/footer.html" %}
-
-  <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"></script>
-  <script src="js/bundle.js"></script>
+    {% include "components/header/header.html" %}
+  <main class="maincontent" id="{{ pageName }}">
+    {% include "components/section_service/service.html" %}
+    {% include "components/common/map/map.html" %}
+  </main>
+    {% include "components/footer/footer.html" %}
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAMc9qAAetzyMBhsXx0fc8aFjjSw_qz-vg"></script>
+    <script src="js/bundle.js"></script>
 </body>
 
 </html>
