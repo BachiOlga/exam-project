@@ -1,4 +1,99 @@
-#map {
+.footer {
+    background: #000;
+}
+
+.footer__logo {
+    font-family: 'Anton', sans-serif;
+    font-size: 40px; // text-shadow: 4px 4px 5px rgba(150, 150, 150, 1);
+}
+
+.footer__logo-title {
+    color: crimson;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 60px;
+    padding-bottom: 80px;
+}
+
+.footer__list {
+    margin: 0;
+}
+
+.footer__title {
+    margin: 0;
+    color: #595959;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.footer__title:hover {
+    color: #C92935;
+}
+
+.footer__link {
+    color: #f7f7f7;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.footer__link:hover {
+    color: #595959;
+}
+
+.footer__item {
+    line-height: 28px;
+}
+
+.footer__social {
+    margin: 0;
+    padding: 0;
+}
+
+.footer__icons {
+    display: flex;
+}
+
+.footer__social-item:not(:first-child) {
+    margin-left: 30px;
+}
+
+.fab {
+    color: #fff;
+    text-shadow: 1px 1px 1px #ccc;
+    font-size: 1.5em;
+}
+
+// .fab:hover {
+// }
+.footer__social-form {
+    margin-top: 30px;
+}
+
+.backlight {
+    display: block;
     width: 100%;
-    height:700px;
+    max-width: 300px;
+    box-sizing: border-box;
+    margin: 0 auto 10px;
+    padding: 10px;
+    border: 1px solid #000;
+    border-radius: 4px;
+    box-shadow: inset 0 2px 10px 1px rgba(0, 0, 0, .3), inset 0 0 0 60px rgba(0, 0, 0, .3), 0 1px rgba(255, 255, 255, .08);
+    background: linear-gradient(rgb(70, 70, 70), rgb(230, 67, 67));
+    color: #ccc;
+    transition: .5s linear;
+}
+
+.backlight:focus {
+    outline: none;
+    box-shadow: inset 0 1px 3px 1px rgba(0, 0, 0, .5), inset 0 0 0 60px rgba(0, 0, 0, 0), 0 1px rgba(255, 255, 255, .08);
+}
+
+.footer__social-submit {
+    width: 150px;
+    color: #fff;
 }

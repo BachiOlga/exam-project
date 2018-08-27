@@ -1,9 +1,39 @@
-.header__logo-link {
-  font-family: 'Anton', sans-serif;
-  font-size: 40px; 
-  text-shadow: 4px 4px 5px rgba(150, 150, 150, 1);   
+.logo {
+  color: #b00e23;
 }
 
-.logo {
-  color: #e54242;
+.svg-wrapper {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  margin: 0 auto;
+  width: 300px;
+}
+
+.shape {
+  stroke-dasharray: 140 540;
+  stroke-dashoffset: -474;
+  stroke-width: 8px;
+  fill: transparent;
+  stroke: #C92935;
+  border-bottom: 5px solid black;
+  transition: stroke-width 1s, stroke-dashoffset 1s, stroke-dasharray 1s;
+}
+
+.text {
+  font-family: 'Anton', sans-serif;
+  font-size: 40px;
+  text-shadow: 4px 4px 5px rgba(150, 150, 150, 1);
+  line-height: 32px;
+  letter-spacing: 8px;
+  text-align: center;
+  top: -48px;
+  position: relative;
+  color: #595959;
+}
+
+.svg-wrapper:hover .shape {
+  stroke-width: 2px;
+  stroke-dashoffset: 0;
+  stroke-dasharray: 760;
 }

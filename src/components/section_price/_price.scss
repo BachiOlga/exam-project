@@ -1,26 +1,30 @@
 .price__title-info {
     text-align: center;
     border-bottom: 1px solid #959595;
-    box-shadow: 0px 0px 26px 6px #959595; 
+    box-shadow: 0px 0px 26px 6px #959595;
 }
+
 .price__title {
     padding-top: 20px;
     font-size: 30px;
     font-weight: 200px
-    
 }
+
 .prace__title-dsc {
     font-size: 18px;
     width: 700px;
-   margin: 0 auto;
-   padding-bottom: 15px;
-   line-height: 1.5;
+    margin: 0 auto;
+    padding-bottom: 15px;
+    line-height: 1.5;
 }
+
 .price {
-   padding-bottom: 50px; 
-   padding-top: 35px;
+    padding-bottom: 80px;
+    padding-top: 100px;
+    color: #595959;
 }
-.price__container{
+
+.price__container {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -33,27 +37,24 @@
     background: #fff;
     border: 1px solid #fff;
     margin-top: 40px;
-    
-       
 }
+
 .card:hover {
     background: #fff;
     border: 1px solid #fff;
     box-shadow: 0px 0px 26px 6px #959595;
-    
 }
 
-.card:not(:first-child) {
+.card:nth-child(3n) {
     margin-left: 30px;
-    }
+}
+
 .card__list {
     text-align: left;
     margin-left: 20px;
 }
 
 .card__img {
-     width: 100%; 
+    width: 100%;
 }
-.card__btn {
-    padding: 5px 10px 5px 10px;
-}
+
