@@ -4,9 +4,12 @@
 
 .footer__logo {
     font-family: 'Anton', sans-serif;
-    font-size: 40px; // text-shadow: 4px 4px 5px rgba(150, 150, 150, 1);
+    font-size: 40px;
+   
 }
-
+.footer__logo:hover {
+   
+}
 .footer__logo-title {
     color: crimson;
 }
@@ -20,6 +23,7 @@
 
 .footer__list {
     margin: 0;
+    
 }
 
 .footer__title {
